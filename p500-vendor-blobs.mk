@@ -99,5 +99,5 @@ PRODUCT_COPY_FILES += \
 ## WiFi
 PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/etc/wl/rtecdc.bin:system/etc/wl/rtecdc.bin \
-    vendor/lge/p500/proprietary/etc/wl/rtecdc-apsta.bin:system/etc/wl/rtecdc-apsta.bin \
-    vendor/lge/p500/proprietary/bin/dhcpcd:system/bin/dhcpcd 
+    vendor/lge/p500/proprietary/etc/wl/rtecdc-apsta.bin:system/etc/wl/rtecdc-apsta.bin
+
