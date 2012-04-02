@@ -45,11 +45,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/lge/p500/proprietary/lib/liblgdrm.so:system/lib/liblgdrm.so \
     vendor/lge/p500/proprietary/lib/libsnd.so:system/lib/libsnd.so \
-      vendor/lge/p500/proprietary/lib/libril.so:obj/lib/libril.so \
-    vendor/lge/p500/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p500/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/p500/proprietary/etc/flex/flex.xml:system/etc/flex/flex.xml
-
 ## Audio
 
 PRODUCT_COPY_FILES += \
@@ -100,4 +97,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/etc/wl/rtecdc.bin:system/etc/wl/rtecdc.bin \
     vendor/lge/p500/proprietary/etc/wl/rtecdc-apsta.bin:system/etc/wl/rtecdc-apsta.bin
-
