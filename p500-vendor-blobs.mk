@@ -58,19 +58,18 @@ PRODUCT_COPY_FILES += \
 
 ## HAL
 PRODUCT_COPY_FILES += \
-vendor/lge/p500/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    vendor/lge/p500/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/lge/p500/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/p500/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/p500/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/lge/p500/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/lge/p500/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    vendor/lge/p500/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/lge/p500/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/p500/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/lge/p500/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/lge/p500/proprietary/lib/hw/gralloc.p500.so:system/lib/hw/gralloc.p500.so  \
     vendor/lge/p500/proprietary/lib/hw/hwcomposer.p500.so:system/lib/hw/hwcomposer.p500.so \
     vendor/lge/p500/proprietary/lib/hw/copybit.p500.so:system/lib/hw/copybit.p500.so \
-    vendor/lge/p500/proprietary/lib/libmemalloc.so:obj/lib/libmemalloc.so  \
-    vendor/lge/p500/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so 
 
 ## Sensors
 PRODUCT_COPY_FILES += \
