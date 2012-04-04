@@ -20,7 +20,7 @@
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ######################    DEPENDENCY SECTION  #######################
 PRODUCT_COPY_FILES += \
-    vendor/lge/p500/proprietary/lib/libcamera_client.so:obj/lib/libcamera_client.so \
+    vendor/lge/p500/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/lge/p500/proprietary/lib/libmmipl.so:obj/lib/libmmipl.so \
     vendor/lge/p500/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
     vendor/lge/p500/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so
@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/lge/p500/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/lge/p500/proprietary/lib/libauth.so:system/lib/libauth.so \
+    vendor/lge/p500/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p500/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/lge/p500/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/p500/proprietary/lib/libdiag.so:system/lib/libdiag.so \
@@ -68,8 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/etc/wl/rtecdc-apsta.bin:system/etc/wl/rtecdc-apsta.bin \
     vendor/lge/p500/proprietary/bin/ami304d:system/bin/ami304d \
     vendor/lge/p500/proprietary/lib/hw/sensors.p500.so:system/lib/hw/sensors.p500.so \
-    vendor/lge/p500/proprietary/lib/hw/hwcomposer.p500.so:system/lib/hw/hwcomposer.p500.so \
-    vendor/lge/p500/proprietary/lib/hw/copybit.p500.so:system/lib/hw/copybit.p500.so \
     vendor/lge/p500/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/lge/p500/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/p500/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
@@ -78,5 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/lge/p500/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/lge/p500/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/lge/p500/proprietary//lib/egl/egl.cfg:system//lib/egl/egl.cfg \
     vendor/lge/p500/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/lge/p500/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+    vendor/lge/p500/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
